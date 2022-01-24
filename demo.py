@@ -1,0 +1,18 @@
+from earsketch import *
+
+init()
+setTempo(120)
+
+fitMedia(COMMON_LOVE_DRUMBEAT_1,1,1,13)
+setEffect(1,VOLUME,GAIN,-60,1,5,8)
+fitMedia(COMMON_LOVE_THEME_PIANO_2,2,1,13)
+setEffect(2,DELAY,DELAY_TIME,500)
+fitMedia(COMMON_LOVE_VOX_ADLIB_1,3,1,3)
+fitMedia(COMMON_LOVE_VOX_ADLIB_2,4,3,5)
+fitMedia(COMMON_LOVE_VOX_ADLIB_3,5,5,7)
+fitMedia(COMMON_LOVE_VOX_ADLIB_4,6,7,9)
+fitMedia(COMMON_LOVE_VOX_ADLIB_5,7,9,11)
+fitMedia(COMMON_LOVE_VOX_ADLIB_6,8,11,13)
+
+
+finish()
